@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 3</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 4</small>
+			Persuasive or Deceptive Visualization?
+		</h1>
+
+		<p>
+			<strong>Emma Tysinger</strong> — <em>tysinger@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+    <h2>Proposition: In Europe, the emission of greenhouse gases, such as CO2, has significantly improved since 1960.
+	</h2>
+
+		<section>
+      <h3>FOR the Proposition</h3>
+
+      <figure>
+				<img src="img/Europe_CO2_positive.png" alt="" width="100%"/>
+				<img src="img/Europe_CO2_positive.gif" alt="Description of GIF" width="75%">
+				<img src="img/europe_negative.png" alt="" width="100%">
+				<figcaption>
+					The top part of the figure shows 3 maps of Europe colored by the CO2 emission per capita  in 1975, 1990 and 2018. 
+					Blue represents low CO2 emission and red represents high CO2 emission. Certain countries are only represented on the map starting in 1990, when the Soviet Union fell. 
+					The GIF below the static figure shows the gradual change in CO2 emission between 1960 and 2018. From both visualizations we can see that 
+					the CO2 emissions per capita in Europe & Central Asia has fallen. 
+					Finally, the line plot on the bottom is depicting how much each region is contributing to the world total CO2 emissions over time. 
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li>Color Scale of CO2 emissions: 1.5 <br> The reason I shifted the center of the color scale was to be able to visually see changes in CO2 emissions per capita.
+				If I had left the scale as the default, because Russia has a much larger CO2 emission per capita rate than the rest of the countries, all the other countries would be blue and it would appear like there was no change over time. 
+				Changing the color scale was an effective way to make this visual more compelling. </li>
+				<li>Color by CO2 emissions (metric tons per capita): -0.5 <br> For Europe & Central Asia in particular, the CO2 emissions in terms of metric tons per capita does go down, so that is true. However, it can be potentially misleading
+				in the sense that this doesn't mean that overal CO2 emissions has gone down. So it is still bad for the planet, but this choice of metric still is in favor of the proposition which is why I decided to use it. </li>
+				<li>Data Transformation – Percent of Total Yearly CO2 emission by Region: -1 <br> 
+				I chose to use the percent of total yearly CO2 emission by region, because this data transformation makes the visual more persuasive due to the stark decrease in the Europe & Central Asia line. The reason this is deceptive
+				is because the only reason Europe & Central Asia's contribution is decreasing is because East Asia & Pacific's rate of CO2 emission is increasing much faster. If you look at the raw, untransformed, data (in my figure against this proposition)
+				you'd see a different story. </li>
+			</ul>
+    </section>
+
+    <section>
+      <h3>AGAINST the Proposition</h3>
+
+      <figure>
+				<img src="img/negative_prop2.png" alt="" width="100%"/>
+				<figcaption>
+          The left figure shows the total greenhouse gas emissions in the Europe and Central Asia region between 1960 and 2018.
+		  The total population in this region is also overlaid with the orange line. In general, the greenhouse gas emissions from Europe & Central Asia increases contributing to global warming.
+		  The right figure compares the total greenhouse gas emissions between different regions. From the figure shown it is clear that while all regions demonstrate increases in total greenhouse gas emissions, Europe & Central Asia maintain the highest emissions.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li>Calculating Total Greenhouse Gas Emission: 2 <br>
+				I calculated the total greenhouse gas emissions by adding together the CO2, nitrous oxide, methane and other emissions categories. This helps show the overall greenhouse gas emissions in Europe & Central Asia, which helps give the audience the actual magnitude and how that's contributing to climate change. </li>
+				<li>Excluding 'East Asia & Pacific' and 'North America' regions: -2 <br>
+				This was an explicit deceptive decision I made because the total East Asia & Pacific, and North America CO2 emissions are much high than that of Europe's. Therefore excluding them makes it seem that Europe is the worst contributor to CO2 emissions. In addition, the audience wouldn't have anyway to know that they are excluded unless they look at the original data, or someone questions where North America is.</li>
+				<li>Y-Axis starting at 100,000: -1.5 <br>
+				Beginning the Y-axis at 100,000 can exaggerate minor variations in the data, making relatively small increases in CO2 emissions appear much more dramatic than they are in reality. 
+				This can mislead the viewer into thinking there has been a significant upsurge in emissions when the actual change might be relatively modest, which is why it's a deceptive decision I took.
+				</li>
+			</ul>
+    </section>
+
+    <section>
+      <h2>Final Reflection</h2>
+
+      <p>
+		Going into this assignment I was under the impression that creating a visualization for my proposition would be straightforward and creating a counter-visualization
+		would be very challenging. However, after creating the first visualization which inspired my proposal, and I surprisingly easily found data that worked well for the counter-visualization. 
+		Which in turn made me question my conclusion from my original (pro-proposition) visual. Now after creating visuals from both sides and having a deeper understanding this data
+		I'm conflicted about which side I believe and I think the answer lies somewhere in the middle. This proves the power of persuasion (even from my own visualization) and if you only know one side of the argument/data 
+		it's easy to believe.
+		<br> <br>
+		One interesting idea I took away from this assignment is how easy it is to construe data to fit your hypothesis. For my figure against the proposition, I explicitly was finding ways to make Europe & Central Asia seem worse in terms of contributions to greenhouse gas emissions than they actually are. 
+		The second decision I explained above, about excluding certain regions, to make Europe & Central Asia seem to be the worst region was extremely simple to do, almost too simple. On top of that a viewer would never know what data is excluded, which makes me wonder how often this happens in other persuasive visualizations we see everyday.
+		On political campaign posters, climate change advocates or haters and other news propagandas, viewers don't know what they don't know so therefore it's scary to think that visualizations can be manipulated so easily, even if we're not explicitly changing the data per say. 
+		<br> <br>
+		Finally, after this assignment I think it's even harder to draw ethical bounds on what constitutes acceptable vs. unacceptable persuasive techniques.
+		At first I would say that one shouldn't exclude data (like I did when I excluded certains regions) because that easily misrepresents data. However, after some thought what does it mean to exclude data?
+		We are always subconsiously making decisions about what data to include and exclude, that is not always in a malicious way, such as choosing to group my data by country or by region or not at all. If I choose no groupings,
+		technically I excluding country-specific data however this would be a case of "acceptable" persuasion. Therefore, it's extremely had to draw a general line that is applicable to all datasets and all visualizations.
+
+	  </p>
+    </section>
+	</main>
+</body>
+</html>
